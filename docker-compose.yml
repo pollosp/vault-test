@@ -1,0 +1,10 @@
+vault:
+  image: vault
+  ports:
+    - 8200:8200
+  environment:
+    - VAULT_ADDR=http://127.0.0.1:8200
+  volumes:
+    - ./hcl:/hcl
+    - ./config:/config
+  command: server -config=/config/config.hcl
