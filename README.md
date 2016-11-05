@@ -1,6 +1,7 @@
 #VAULT
 Test vault
 
+- `docker network create vaulttest_default`
 - `docker-compose create` It builds the container
 - `docker-compose start` It starts the container
 - `docker-compose exec vault vault init` It initzialize the vault with 5 keys, you need this in order unseal the vault and it is goint to return root token in order unseal the vault
