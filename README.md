@@ -29,3 +29,11 @@ The MySQL secret backend for Vault generates database credentials dynamically ba
 - `docker-compose exec vault vault read mysql/creds/readonly`
 - `docker-compose exec mysql mysql -uread-root-6df374 -pa2332e92-d0be-fe5f-2be3-5e1b6a4a5fbd`
 - `docker-compose exec vault vault renew mysql/creds/readonly/1712c7e8-3611-3bfe-aafa-14becf7ccc3e` #Renews the Lease-id
+
+## SSH
+For future tests
+- https://www.vaultproject.io/docs/secrets/ssh/index.html
+- https://github.com/hashicorp/vault-ssh-helper
+- https://releases.hashicorp.com/vault-ssh-helper/
+- https://github.com/sjourdan/vault-ssh-backend
+

@@ -1,3 +1,5 @@
 Gemfile.lock
+terraform.tfstate
+terraform.tfstate.backup
 vendor
 .bundle
